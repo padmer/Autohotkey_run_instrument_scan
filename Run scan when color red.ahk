@@ -9,10 +9,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 SetTitleMatchMode, 2
 CoordMode, Mouse, Window
 
+;PASTE OVERWRITING THE VALUES BELOW
 xpos := 388
 ypos := 76
 targetColor := 0x1200E6
 win_title := "AHK scripts"
+;PASTE OVERWRITING THE VALUES ABOVE
 
 ;define the number of times it should hit the button
 num_clicks:=3
